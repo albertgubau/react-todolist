@@ -1,0 +1,68 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    text-shadow: 0 0 2px #fff;
+    margin-bottom: 20px;
+    transition:0.2s;
+}
+.buttons{
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    cursor: pointer;
+}
+
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    all:unset;
+    cursor: pointer;
+    margin:0px 0.5rem;
+    background-color: gray;
+    padding: 0.5rem 0.7rem;
+    border-radius:0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.edit_btn{
+    all:unset;
+    cursor: pointer;
+    margin-top:1rem;
+    margin-bottom:10px;
+    margin-left: 4rem;
+}
+
+.delete_btn{
+    all:unset;
+    cursor: pointer;
+    margin-top:1rem;
+    margin-bottom:10px;
+}
+
+
+.editForm{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+}
+.validate_btn{
+    all:unset;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-left:1rem;
+}
